@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Web Notes</title>
+    <script src="JS/noteScript.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="title">
+            <h1>Notes</h1>
+        </div>
+        <div id="search-bar">
+            <input type="text" placeholder="Search here">
+            <button><i id="s-icon" class="fas fa-search"></i></button>
+            
+        </div>
+        <div id="li-container">
+            <ul id="ul">
+                <li class="lists">
+                   <p class="type-note" contenteditable="true">This is notes...</p>
+                    <p><i class="fas fa-trash-alt delete-btn"></i></p>
+                    
+                </li>
+                <li class="lists">
+                    <p class="type-note" contenteditable="true">Hello worlds...</p>
+                    <p><i class="fas fa-trash-alt delete-btn"></i></p>
+                </li>
+                <li class="lists">
+                    <p class="type-note" contenteditable="true">Text here...</p>
+                    <p><i class="fas fa-trash-alt delete-btn"></i></p>
+                </li>
+                <li class="lists">
+                    <p class="type-note" contenteditable="true">You can add more...</p>
+                    <p><i class="fas fa-trash-alt delete-btn"></i></p>
+                </li>
+            </ul>
+        </div>
+        <div id="hide_div">
+            <h3 id="hide_btn">Hide lists</h3>
+        </div>
+        <div id="addNoteArea">
+            <textarea name="notes" id="textArea" placeholder="Type your note here" ></textarea>
+            <h3 id="add_btn">Add note</h3>
+        </div>
+        <script src="JS/noteScript.js"></script>
+    </div>
+</body>
+</html>
