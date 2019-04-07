@@ -14,8 +14,8 @@ body{
     background:white;
     width: 25em;
     text-align: center;
-    box-shadow: 5px 5px 25px rgba(0,0,0, 0.4)
-    
+    box-shadow: 5px 5px 25px rgba(0,0,0, 0.4);
+    transition:0.4s;
 }
 
 h1{
@@ -83,6 +83,7 @@ ul{
     margin: 10px 0;
     border-radius: 5px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .type-note{
