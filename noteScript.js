@@ -2,6 +2,7 @@ const addBtn = document.getElementById('add_btn');
 const lists = document.getElementById('ul');
 const li = document.getElementById('lists');
 const hideBtn = document.getElementById('hide_btn');
+const input = document.getElementById('search-input');
 
 //Add Note
 function addNote() {
@@ -47,9 +48,7 @@ hideBtn.addEventListener('click', function() {
 });
 //search Note
 
-const search = document.getElementById('s-icon');
-search.addEventListener('click', function() {
-  const input = document.getElementById('search-input');
+input.addEventListener('keyup', function() {
   const noteValue = document.getElementsByClassName('type-note');
   const noteArr = Array.from(noteValue);
   for (i = 0; i < noteArr.length; i++) {
