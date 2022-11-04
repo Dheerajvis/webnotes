@@ -122,18 +122,21 @@ ul {
   margin: auto;
 }
 
+
+/* color: rgb(255, 64, 64); */
+
 .delete-btn {
-  background: white;
-  color: rgb(255, 64, 64);
+  color: white;
   padding: 8px;
   border-radius: 15px;
   font-size: 13px;
   transition: 0.2s;
 }
 
+
+/* color: #2ecc71; */
 .edit-btn {
-  background: white;
-  color: #2ecc71;
+  color: white;
   padding: 8px;
   border-radius: 15px;
   font-size: 13px;
@@ -197,14 +200,14 @@ textarea {
 
 .delete-btn:hover {
   cursor: pointer;
-  color: white;
+  color: rgb(255, 64, 64);
   background: none;
   box-shadow: 0 0 0px 2px white;
 }
 
 .edit-btn:hover {
   cursor: pointer;
-  color: white;
+  color: #2ecc71;
   background: none;
   box-shadow: 0 0 0px 2px white;
 }
